@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Département de Génie Informatique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+        header ul li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        section {
+            padding: 20px 0 20px 0;
+        }
+        #main h1 {
+            text-align: center;
+            margin: 0 0 20px;
+        }
+        .card {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        @media (max-width: 600px) {
+            header #branding,
+            header nav,
+            header nav ul,
+            header nav ul li {
+                float: none;
+                text-align: center;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Université</span> Département de Génie Informatique</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Programmes</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="main">
+        <div class="container">
+            <h1>Bienvenue au Département de Génie Informatique</h1>
+            <div class="card">
+                <h2>À propos de nous</h2>
+                <p>Le département de Génie Informatique de notre université offre des programmes de formation de premier cycle et de cycles supérieurs. Nos étudiants acquièrent des compétences en programmation, en développement de logiciels, et en intelligence artificielle.</p>
+            </div>
+            <div class="card">
+                <h2>Nos Programmes</h2>
+                <p>Nous proposons des programmes variés, incluant le Bachelor en Informatique, le Master en Science Informatique et des doctorats en recherche informatique.</p>
+            </div>
+            <div class="card">
+                <h2>Contactez-nous</h2>
+                <p>Pour plus d'informations, vous pouvez nous contacter à l'adresse email : info@universite.edu ou par téléphone au (123) 456-7890.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
